@@ -25,8 +25,8 @@ git clone https://github.com/yourgithubusername/ViT-NormReg-Compressor.git
 cd ViT-NormReg-Compressor
 ```
 
-## Installation
-To use the model, modify the inputs in main.py. You can change the model argument to apply different token compression techniques. Adjust the batch_size argument in the same file to set the desired batch size. To switch datasets (e.g., STL10, CIFAR10), modify the data_name argument.
+## Usage
+To use the model, modify the inputs in main.py. You can change the model argument to apply different token compression techniques. Adjust the batch_size argument in the same file to set the desired batch size. To switch datasets (e.g., STL10, CIFAR10), modify the data_name argument. You can adjust the pruning level by changing the reduce_token variable.
 
 ## Code Structure
 The project is structured as follows:
@@ -36,7 +36,7 @@ The project is structured as follows:
 - data/: Dataset handling scripts.
 
 ## Experimental Results
-Applying norm regularization with the Top K method has shown to improve accuracy significantly in our experiments.
+It was found that applying norm regularization using the Top K method does not reduce accuracy compared to existing methods.
 
 ## Authors and Contributors
 GitHub Username: maikimilk
