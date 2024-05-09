@@ -36,6 +36,8 @@ def main():
     batch = "32"
     # データセットの指定
     data_name = "CIFAR10"
+    # 削除するトークンの指定
+    reduce_token = "10"
 
     #データセット
     train_transform = transforms.Compose(
@@ -79,7 +81,7 @@ def main():
 
 
     #モデルの調整
-    pruning.patch.apply_patch(net, select_method = model, pool_k = 15)
+    pruning.patch.apply_patch(net, select_method = model, pool_k = int(reduce_token))
 
 
     #エポック数
