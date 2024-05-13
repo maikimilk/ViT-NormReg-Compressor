@@ -49,7 +49,7 @@ This project is based in part on the code and concepts from the following resear
 
 This project also makes use of third-party data:
 
-- "Data Set Title" by Creator Name, available under a Creative Commons Attribution-NonCommercial [CC-BY-NC 4.0](LICENSE). [View Source](https://github.com/facebookresearch/ToMe)
+- "ToMe" by facebookresearch, available under a Creative Commons Attribution-NonCommercial [CC-BY-NC 4.0](LICENSE). [View Source](https://github.com/facebookresearch/ToMe)
 
 
 ## Citation
@@ -59,7 +59,7 @@ If you find this project useful in your research, please consider citing:
 ```bibtex
 @inproceedings{masayuki2024norm-pruning,
   title={Norm-Regularized Token Compression in Vision Transformer Networks},
-  author={Masayuki Ishikawa},
+  author={Masayuki Ishikawa, Ryuto Ishibashi and Lin Meng},
   year={2024}
 }
 
@@ -72,7 +72,7 @@ If you find this project useful in your research, please consider citing:
 ```
 
 ## License
-This project is licensed under the MIT License - see the [CC-BY-NC 4.0](LICENSE) file for details.
+This project is licensed under a Creative Commons Attribution-NonCommercial - see the [CC-BY-NC 4.0](LICENSE) file for details.
 
 ## Contact
 For questions and feedback, please reach out to ri0146fe@ed.ritsumei.ac.jp
