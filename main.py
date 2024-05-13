@@ -29,8 +29,16 @@ def main():
     torch_fix_seed(777)
 
     torch.autograd.set_detect_anomaly(True)
-
-    # tk, tk_n, evit, evit_n, n_wa, a_wn の手法を選択
+"""
+手法選択:
+tk - Top k 手法
+tk_n - Top k-norm 手法
+evit - EViT 手法
+evit_n - EViT-norm 手法
+n_wa - TNWAF 手法
+a_wn - TAWNF 手法
+例: Top k 手法を使いたい場合は、tk を指定してください。
+"""
     model = "tk"
     # バッチサイズを指定
     batch = "32"
